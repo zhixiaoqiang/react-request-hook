@@ -36,7 +36,7 @@ const fetchDataReducer = (initState, action) => {
  * @param {*} initState setInit state, defaultValue: undefined
  * @return {array} [state, memoizedFetchDateApi] state: { data, isLoading, error, ... }
  */
-export default useFetchData = (requestFn, initState) => {
+const useFetchData = (requestFn, initState) => {
   const [state, dispatch] = useReducer(fetchDataReducer, initState)
 
   const fetchData = async (params) => {
@@ -53,3 +53,4 @@ export default useFetchData = (requestFn, initState) => {
   return [state || {}, memoizedFetchDateApi]
 }
 
+export default useFetchData
