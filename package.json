@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhixiaoqiang/eslint-config.git"
+    "url": "git@github.com:zhixiaoqiang/react-request-hook.git"
   },
   "peerDependencies": {
     "react": "^16.9.0",
