@@ -1,0 +1,33 @@
+{
+  "name": "@jzone/react-request-hook",
+  "version": "0.1.0",
+  "description": "🐶 React hook for custom request，compatible with various lib, support redux",
+  "main": "index.js",
+  "author": "zhixiaoqiang",
+  "license": "MIT",
+  "scripts": {
+    "prod": "node scripts/prod",
+    "release": "node scripts/release",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hook",
+    "react",
+    "request"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zhixiaoqiang/eslint-config.git"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "dayjs": "^1.8.17",
+    "execa": "^3.2.0",
+    "inquirer": "^7.0.0",
+    "semver": "^6.3.0"
+  }
+}
