@@ -2,6 +2,17 @@
 
 > React hook for custom request，compatible with various lib, support redux
 
+## Install
+
+```bash
+# npm
+npm install @jzone/react-request-hook -D
+
+# yarn
+yarn add @jzone/react-request-hook -D
+```
+
+
 ## Features
 
 - Custom request support
