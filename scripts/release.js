@@ -14,9 +14,10 @@ const dayJS = require('dayjs')
 
   await execa(
     'npm',
-    ['version', version, '-m', `chore: update version with tag v${version}`],
+    ['version', version, '-m', `chore: update version with tag v${version}`, '--no-git-tag-version'],
     { stdout: 'inherit' }
   )
+
   await execa('git', ['push', 'origin', `v${version}`], { stdout: 'inherit' })
   await execa('git', ['push', 'origin', 'master'], {
     stdout: 'inherit',

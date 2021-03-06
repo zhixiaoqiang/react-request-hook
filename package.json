@@ -1,13 +1,10 @@
 {
   "name": "@jzone/react-request-hook",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "🐶 React hook for custom request，compatible with various lib, support redux",
   "main": "index.js",
   "author": "zhixiaoqiang",
   "license": "MIT",
-  "files": [
-    "index.js"
-  ],
   "scripts": {
     "prod": "node scripts/prod",
     "release": "node scripts/release",
