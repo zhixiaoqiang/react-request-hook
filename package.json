@@ -5,29 +5,33 @@
   "main": "index.js",
   "author": "zhixiaoqiang",
   "license": "MIT",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "prod": "node scripts/prod",
     "release": "node scripts/release",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "react-hook",
     "hook",
     "react",
     "request"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:zhixiaoqiang/react-request-hook.git"
+    "url": "https://github.com/zhixiaoqiang/react-request-hook.git"
   },
   "peerDependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.13.1 || ^17.0.0",
+    "react-dom": "^16.13.1 || ^17.0.0"
   },
   "devDependencies": {
-    "chalk": "^2.4.2",
-    "dayjs": "^1.8.17",
-    "execa": "^3.2.0",
-    "inquirer": "^7.0.0",
-    "semver": "^6.3.0"
+    "chalk": "^4.1.0",
+    "dayjs": "^1.10.4",
+    "execa": "^5.0.0",
+    "inquirer": "^8.0.0",
+    "semver": "^7.3.4"
   }
 }

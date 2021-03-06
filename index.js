@@ -1,4 +1,4 @@
-import React, { useReducer, useCallback } from 'react'
+import { useReducer, useCallback } from 'react'
 
 const FETCH_REQUEST = 'FETCH_REQUEST'
 const FETCH_SUCCESS = 'FETCH_SUCCESS'
